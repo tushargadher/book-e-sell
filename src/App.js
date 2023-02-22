@@ -1,18 +1,10 @@
 import React from 'react';
 import './App.css';
-
+import Home from './Pages/Home'
 const App = () => {
   return (
     <>
-
-      <div className='container'>
-
-
-        <h1>
-          Hello World This is Our First React Application.
-
-        </h1>
-      </div>
+      <Home />
     </>
 
   );
