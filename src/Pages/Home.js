@@ -14,14 +14,14 @@ class Home extends Component {
     render() {
         return (
             <>
-            {/* <Title title={this.state.title} desc={this.state.description}/>
+            {/* <Title title={this.state.title} desc={this.state.description}/> */}
                 <div className="container">
 
                     <h1>This is classbased Home Component</h1>
-                </div> */}
+                </div>
                 <div className="container">
 
-                <Counter/>
+                {/* <Counter/> */}
                 </div>
             </>
         );

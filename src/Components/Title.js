@@ -4,8 +4,10 @@ const Title = (props) => {
     const { title, desc } = props;
     return (
         <>
-            <h1>{title}</h1>
-            <p>{desc}</p>
+            <div id="title">
+                <h1>{title}</h1>
+                <p>{desc}</p>
+            </div>
         </>
     );
 }
