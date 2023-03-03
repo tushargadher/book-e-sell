@@ -1,13 +1,15 @@
 import React from "react";
+//import title.css 
+import '../css/title.css';
 const Title = (props) => {
     //props destructuring
     const { id, title, desc } = props;
     return (
         <>
-            <div id="title">
-                <h1>{id}</h1>
-                <h4>{title}</h4>
-                <p>{desc}</p>
+            <div className="wrap">
+                <h2>{id}</h2>
+                <h4 id="title">{title}</h4>
+                <p id="description">{desc}</p>
 
             </div>
         </>
