@@ -1,12 +1,14 @@
 import React from "react";
 const Title = (props) => {
     //props destructuring
-    const { title, desc } = props;
+    const { id, title, desc } = props;
     return (
         <>
             <div id="title">
-                <h1>{title}</h1>
+                <h1>{id}</h1>
+                <h4>{title}</h4>
                 <p>{desc}</p>
+
             </div>
         </>
     );
