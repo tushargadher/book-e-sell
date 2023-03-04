@@ -9,7 +9,6 @@ class Home extends Component {
             title:'Book-e-sell',
             description:'Book-e-sell website is a platform for buying and selling books over the internet. Users can browse through a vast collection of books and purchase them with ease. The website provides a convenient and secure payment system, as well as fast and reliable shipping options.'
         }
-        
     }
     render() {
         return (
